@@ -14,12 +14,6 @@ export default function (app: Application) {
     }
   })
 }
-// export default {
-//   get browser(this: Application):string {
-//     console.log('xxx')
-//     return 'xxx';
-//   }
-// }
 
 declare module 'egg' {
   interface Application {
